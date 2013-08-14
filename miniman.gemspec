@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Miniman::VERSION
   spec.authors       = ["Hao Wei"]
   spec.email         = ["imwillmouse@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = "show what minitest can do in your terminal"
+  spec.summary       = "Helper for minitest"
+  spec.homepage      = "http://github.com/weih/miniman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "minitest", "~> 5.0"
 end
