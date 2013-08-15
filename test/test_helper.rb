@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-# require 'minitest/pride'
+require 'minitest/pride'
 # require 'bundler/setup'
 
 testdir = File.dirname(__FILE__)
